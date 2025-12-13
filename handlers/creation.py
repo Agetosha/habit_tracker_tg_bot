@@ -39,7 +39,7 @@ async def process_title(message: Message, state: FSMContext):
     await state.update_data(title=message.text)
     await state.set_state(HabitState.description)
     await message.answer(
-        "💬 Опишите цель (например: <i>30 минут в день</i>) или напишите 'нет':",
+        "💬 Опишите цель (например: 30 минут в день) или напишите 'нет':",
         reply_markup=cancel_kb()
     )
 
