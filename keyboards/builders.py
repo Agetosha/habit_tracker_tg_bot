@@ -12,8 +12,17 @@ def main_kb():
         input_field_placeholder="Выберите действие..."
     )
 
+# Новая клавиатура для процесса создания
+def cancel_kb():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="❌ Отмена")]
+        ],
+        resize_keyboard=True,
+        input_field_placeholder="Напишите название или отмените..."
+    )
+
 def habits_inline_kb(habits, action_type="track"):
-    # action_type: "track", "stats", "delete"
     builder = InlineKeyboardBuilder()
     for habit in habits:
         callback_data = f"{action_type}_{habit.id}"
