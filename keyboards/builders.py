@@ -1,5 +1,7 @@
 # типы клавиатур и кнопок aiogram
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
+#ReplyKeyboardMarkup - обычная клава. KeyboardButton ее кнопка
+# InlineKeyboardMarkup клава внутри сообщения InlineKeyboardButton кнопка
 
 # утилиты для построения клавиатур
 from aiogram.utils.keyboard import InlineKeyboardBuilder

@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt#графики
-import io#для буфера памяти
-import pandas as pd#табличнык данные (DataFrame)
+import matplotlib.pyplot as plt #графики
+import io #для буфера памяти
+import pandas as pd #табличнык данные (DataFrame)
 
 def generate_habit_chart(habit_title, logs):
     # создаем график прогресса по привычке
