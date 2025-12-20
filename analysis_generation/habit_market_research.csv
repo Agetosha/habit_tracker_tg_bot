@@ -1,0 +1,1001 @@
+User_ID,Habit_Type,Tracking_Method,Success_Rate_Percent,Days_Streak,Dropped_Early
+0,Изучение языков,None,11.2,12,True
+1,Питьевой режим,Simple App,37.6,7,True
+2,Медитация,Gamified App,84.1,32,True
+3,Чтение,Simple App,72.4,2,True
+4,Спорт/Фитнес,Gamified App,72.3,37,True
+5,Спорт/Фитнес,Simple App,49.8,2,True
+6,Спорт/Фитнес,Simple App,13.6,9,True
+7,Программирование,Gamified App,83.8,48,True
+8,Чтение,None,20.9,5,True
+9,Медитация,Paper,16.6,19,True
+10,Спорт/Фитнес,None,14.7,20,True
+11,Питьевой режим,Gamified App,82.9,26,True
+12,Программирование,Gamified App,77.9,24,True
+13,Спорт/Фитнес,None,24.7,5,True
+14,Спорт/Фитнес,Simple App,49.5,10,True
+15,Спорт/Фитнес,Gamified App,67.7,32,True
+16,Изучение языков,None,22.0,4,True
+17,Чтение,Simple App,67.2,3,True
+18,Изучение языков,Gamified App,79.3,55,True
+19,Спорт/Фитнес,None,21.8,4,True
+20,Чтение,Simple App,44.5,2,True
+21,Спорт/Фитнес,None,9.3,1,True
+22,Спорт/Фитнес,Gamified App,45.8,38,True
+23,Изучение языков,Gamified App,95.1,71,False
+24,Изучение языков,Gamified App,64.7,34,True
+25,Программирование,Paper,41.1,11,True
+26,Спорт/Фитнес,Gamified App,73.2,65,False
+27,Чтение,Gamified App,68.5,33,True
+28,Чтение,Paper,32.8,20,True
+29,Спорт/Фитнес,Gamified App,65.5,23,True
+30,Чтение,None,20.9,11,True
+31,Спорт/Фитнес,Simple App,45.6,89,False
+32,Спорт/Фитнес,None,4.4,8,True
+33,Питьевой режим,None,28.8,4,True
+34,Питьевой режим,None,19.2,4,True
+35,Программирование,Simple App,54.5,37,True
+36,Изучение языков,Paper,28.7,7,True
+37,Спорт/Фитнес,Simple App,51.7,8,True
+38,Медитация,None,5.6,8,True
+39,Изучение языков,Paper,68.1,23,True
+40,Спорт/Фитнес,Simple App,66.2,11,True
+41,Изучение языков,Simple App,51.0,4,True
+42,Спорт/Фитнес,Paper,52.8,17,True
+43,Питьевой режим,Simple App,40.3,41,True
+44,Спорт/Фитнес,Gamified App,85.3,41,True
+45,Медитация,Simple App,57.3,87,False
+46,Изучение языков,None,16.7,2,True
+47,Чтение,None,16.0,12,True
+48,Чтение,Gamified App,65.4,51,True
+49,Спорт/Фитнес,None,40.6,1,True
+50,Питьевой режим,Gamified App,64.3,47,True
+51,Программирование,Simple App,53.6,15,True
+52,Питьевой режим,Gamified App,74.2,51,True
+53,Программирование,Simple App,34.1,45,True
+54,Чтение,Gamified App,79.3,27,True
+55,Питьевой режим,Paper,36.2,1,True
+56,Спорт/Фитнес,Simple App,67.8,27,True
+57,Спорт/Фитнес,Paper,78.8,31,True
+58,Спорт/Фитнес,Paper,42.9,3,True
+59,Изучение языков,Simple App,44.7,42,True
+60,Изучение языков,Gamified App,76.7,64,False
+61,Спорт/Фитнес,Gamified App,64.9,62,False
+62,Программирование,Simple App,69.8,13,True
+63,Изучение языков,Paper,38.2,7,True
+64,Спорт/Фитнес,Paper,59.5,6,True
+65,Чтение,Simple App,49.7,5,True
+66,Спорт/Фитнес,None,28.4,1,True
+67,Программирование,None,25.5,2,True
+68,Спорт/Фитнес,Paper,34.1,9,True
+69,Питьевой режим,None,10.8,7,True
+70,Программирование,None,32.2,3,True
+71,Спорт/Фитнес,None,35.2,10,True
+72,Спорт/Фитнес,None,24.0,6,True
+73,Программирование,None,19.8,1,True
+74,Медитация,Gamified App,63.2,62,False
+75,Медитация,Paper,33.0,3,True
+76,Программирование,Paper,43.0,28,True
+77,Спорт/Фитнес,Simple App,58.8,7,True
+78,Изучение языков,None,15.3,6,True
+79,Спорт/Фитнес,Gamified App,76.3,74,False
+80,Программирование,Simple App,35.0,1,True
+81,Чтение,None,13.2,2,True
+82,Изучение языков,Paper,47.7,29,True
+83,Спорт/Фитнес,Gamified App,76.8,55,True
+84,Изучение языков,Gamified App,81.7,26,True
+85,Изучение языков,Paper,52.5,34,True
+86,Медитация,Simple App,60.1,3,True
+87,Чтение,None,39.0,3,True
+88,Программирование,Gamified App,86.1,43,True
+89,Изучение языков,None,0.0,19,True
+90,Спорт/Фитнес,Gamified App,83.5,42,True
+91,Медитация,Simple App,35.9,1,True
+92,Программирование,Simple App,55.0,7,True
+93,Чтение,Simple App,52.9,42,True
+94,Программирование,None,25.1,8,True
+95,Изучение языков,None,17.4,9,True
+96,Чтение,None,10.6,9,True
+97,Изучение языков,None,30.9,2,True
+98,Спорт/Фитнес,Simple App,55.5,3,True
+99,Спорт/Фитнес,Paper,67.6,4,True
+100,Спорт/Фитнес,None,19.8,2,True
+101,Чтение,Gamified App,72.0,20,True
+102,Изучение языков,Gamified App,82.8,60,False
+103,Чтение,Gamified App,66.4,51,True
+104,Питьевой режим,Gamified App,84.0,58,True
+105,Спорт/Фитнес,None,22.1,2,True
+106,Изучение языков,Paper,38.4,23,True
+107,Программирование,Simple App,47.5,1,True
+108,Спорт/Фитнес,Simple App,51.1,2,True
+109,Спорт/Фитнес,None,31.6,9,True
+110,Спорт/Фитнес,Gamified App,65.7,48,True
+111,Спорт/Фитнес,None,29.8,11,True
+112,Питьевой режим,None,25.0,5,True
+113,Программирование,Simple App,9.5,9,True
+114,Чтение,Simple App,60.2,12,True
+115,Программирование,Simple App,57.7,47,True
+116,Программирование,None,33.7,3,True
+117,Спорт/Фитнес,Gamified App,91.1,64,False
+118,Программирование,None,36.4,2,True
+119,Чтение,None,27.4,4,True
+120,Программирование,Gamified App,72.5,32,True
+121,Программирование,Gamified App,96.7,42,True
+122,Изучение языков,Gamified App,76.2,53,True
+123,Спорт/Фитнес,Gamified App,75.4,70,False
+124,Спорт/Фитнес,Simple App,40.7,7,True
+125,Изучение языков,Simple App,52.9,10,True
+126,Программирование,None,13.9,1,True
+127,Программирование,Paper,39.4,5,True
+128,Спорт/Фитнес,Paper,18.9,14,True
+129,Чтение,None,19.2,2,True
+130,Изучение языков,Simple App,51.2,1,True
+131,Спорт/Фитнес,Paper,18.1,1,True
+132,Спорт/Фитнес,None,16.9,9,True
+133,Изучение языков,None,12.5,5,True
+134,Питьевой режим,Simple App,21.9,57,True
+135,Изучение языков,None,21.2,3,True
+136,Чтение,Gamified App,77.1,33,True
+137,Медитация,Paper,35.2,10,True
+138,Изучение языков,Paper,28.1,30,True
+139,Питьевой режим,Simple App,78.5,104,False
+140,Питьевой режим,Gamified App,74.4,39,True
+141,Спорт/Фитнес,Paper,30.2,8,True
+142,Изучение языков,Simple App,23.0,51,True
+143,Изучение языков,Simple App,26.2,27,True
+144,Спорт/Фитнес,None,4.2,9,True
+145,Спорт/Фитнес,Gamified App,84.0,47,True
+146,Чтение,Simple App,40.8,25,True
+147,Чтение,Simple App,46.0,13,True
+148,Спорт/Фитнес,Gamified App,66.1,31,True
+149,Спорт/Фитнес,Gamified App,71.9,67,False
+150,Питьевой режим,Simple App,42.6,2,True
+151,Спорт/Фитнес,Gamified App,72.8,35,True
+152,Спорт/Фитнес,Simple App,52.5,24,True
+153,Изучение языков,Simple App,56.6,10,True
+154,Питьевой режим,Simple App,48.5,22,True
+155,Спорт/Фитнес,Simple App,50.3,52,True
+156,Медитация,None,29.5,7,True
+157,Программирование,Gamified App,77.9,45,True
+158,Спорт/Фитнес,Gamified App,67.6,19,True
+159,Медитация,None,13.5,4,True
+160,Изучение языков,Gamified App,69.5,46,True
+161,Чтение,None,21.6,3,True
+162,Чтение,Paper,24.6,19,True
+163,Чтение,Simple App,64.5,25,True
+164,Спорт/Фитнес,None,24.3,3,True
+165,Программирование,Gamified App,63.1,58,True
+166,Изучение языков,Gamified App,85.0,34,True
+167,Спорт/Фитнес,Simple App,70.9,37,True
+168,Спорт/Фитнес,None,17.5,10,True
+169,Чтение,None,18.7,2,True
+170,Медитация,Simple App,62.2,19,True
+171,Спорт/Фитнес,Gamified App,88.0,20,True
+172,Чтение,Simple App,65.5,10,True
+173,Спорт/Фитнес,None,31.3,1,True
+174,Чтение,Simple App,33.4,47,True
+175,Спорт/Фитнес,Simple App,46.8,9,True
+176,Медитация,Simple App,69.7,9,True
+177,Изучение языков,None,34.0,1,True
+178,Питьевой режим,Simple App,24.7,24,True
+179,Спорт/Фитнес,Simple App,37.9,20,True
+180,Изучение языков,Gamified App,62.7,36,True
+181,Спорт/Фитнес,Paper,39.6,17,True
+182,Питьевой режим,Simple App,54.2,4,True
+183,Программирование,Gamified App,70.3,44,True
+184,Спорт/Фитнес,None,25.5,3,True
+185,Медитация,Gamified App,75.1,28,True
+186,Программирование,Simple App,44.6,1,True
+187,Чтение,None,17.4,2,True
+188,Чтение,Paper,64.0,33,True
+189,Спорт/Фитнес,Simple App,60.5,20,True
+190,Спорт/Фитнес,None,16.7,9,True
+191,Программирование,Simple App,48.4,11,True
+192,Питьевой режим,Paper,46.7,6,True
+193,Чтение,Simple App,32.1,17,True
+194,Изучение языков,None,21.4,4,True
+195,Изучение языков,Gamified App,81.4,52,True
+196,Медитация,Gamified App,57.0,36,True
+197,Программирование,Gamified App,67.1,35,True
+198,Программирование,Simple App,47.5,7,True
+199,Программирование,None,15.3,17,True
+200,Чтение,Simple App,20.3,19,True
+201,Спорт/Фитнес,None,27.5,1,True
+202,Спорт/Фитнес,None,40.7,4,True
+203,Программирование,Paper,26.2,8,True
+204,Чтение,Paper,56.5,14,True
+205,Спорт/Фитнес,Simple App,79.4,5,True
+206,Спорт/Фитнес,Simple App,43.0,14,True
+207,Медитация,Paper,38.4,11,True
+208,Спорт/Фитнес,None,22.5,4,True
+209,Спорт/Фитнес,Gamified App,79.7,39,True
+210,Чтение,Paper,44.2,23,True
+211,Медитация,Paper,49.3,41,True
+212,Медитация,None,16.3,1,True
+213,Спорт/Фитнес,Simple App,55.7,14,True
+214,Медитация,Simple App,49.6,42,True
+215,Спорт/Фитнес,None,2.3,2,True
+216,Изучение языков,None,32.6,2,True
+217,Медитация,Simple App,41.1,16,True
+218,Чтение,Simple App,70.6,15,True
+219,Программирование,None,30.6,20,True
+220,Медитация,Gamified App,77.2,62,False
+221,Чтение,None,16.6,8,True
+222,Спорт/Фитнес,Paper,48.3,4,True
+223,Изучение языков,Gamified App,75.9,62,False
+224,Спорт/Фитнес,Paper,36.9,32,True
+225,Спорт/Фитнес,Simple App,58.9,21,True
+226,Питьевой режим,Paper,0.0,37,True
+227,Изучение языков,None,19.8,6,True
+228,Программирование,Gamified App,71.1,59,True
+229,Чтение,Paper,56.5,3,True
+230,Программирование,Gamified App,65.3,24,True
+231,Чтение,None,13.7,2,True
+232,Чтение,None,28.6,16,True
+233,Изучение языков,None,29.5,2,True
+234,Спорт/Фитнес,Simple App,57.7,1,True
+235,Медитация,Paper,50.9,19,True
+236,Спорт/Фитнес,Gamified App,80.2,51,True
+237,Спорт/Фитнес,Paper,31.1,21,True
+238,Чтение,Gamified App,86.9,55,True
+239,Спорт/Фитнес,None,23.5,1,True
+240,Питьевой режим,Gamified App,85.7,32,True
+241,Питьевой режим,Simple App,49.6,11,True
+242,Питьевой режим,Simple App,39.9,10,True
+243,Изучение языков,Gamified App,73.6,46,True
+244,Спорт/Фитнес,Simple App,48.0,62,False
+245,Питьевой режим,Simple App,21.6,2,True
+246,Изучение языков,None,22.1,4,True
+247,Питьевой режим,None,26.6,1,True
+248,Питьевой режим,Gamified App,84.4,42,True
+249,Программирование,Simple App,39.4,8,True
+250,Спорт/Фитнес,Simple App,38.5,35,True
+251,Изучение языков,Paper,25.9,38,True
+252,Программирование,None,28.3,2,True
+253,Изучение языков,None,18.1,4,True
+254,Спорт/Фитнес,Simple App,59.5,82,False
+255,Чтение,Paper,21.4,13,True
+256,Питьевой режим,None,33.6,1,True
+257,Медитация,Paper,20.4,31,True
+258,Чтение,None,0.0,5,True
+259,Спорт/Фитнес,Simple App,52.8,21,True
+260,Чтение,None,22.1,2,True
+261,Питьевой режим,Simple App,42.6,27,True
+262,Спорт/Фитнес,Paper,47.1,12,True
+263,Чтение,Paper,47.6,11,True
+264,Программирование,None,23.9,2,True
+265,Медитация,None,14.9,4,True
+266,Медитация,Paper,29.6,14,True
+267,Медитация,Paper,33.9,1,True
+268,Изучение языков,Simple App,37.7,1,True
+269,Спорт/Фитнес,None,31.2,4,True
+270,Программирование,Simple App,45.1,39,True
+271,Программирование,Gamified App,76.6,32,True
+272,Программирование,Simple App,66.9,3,True
+273,Питьевой режим,None,6.5,10,True
+274,Чтение,Paper,27.7,6,True
+275,Чтение,None,22.6,3,True
+276,Программирование,None,21.9,13,True
+277,Чтение,Gamified App,78.9,43,True
+278,Медитация,None,22.7,4,True
+279,Программирование,Paper,31.3,7,True
+280,Программирование,Simple App,71.3,1,True
+281,Изучение языков,Simple App,63.9,4,True
+282,Изучение языков,Simple App,64.5,72,False
+283,Спорт/Фитнес,None,32.4,8,True
+284,Чтение,Paper,41.3,5,True
+285,Спорт/Фитнес,Simple App,53.0,3,True
+286,Изучение языков,None,26.2,1,True
+287,Чтение,Paper,58.1,7,True
+288,Спорт/Фитнес,None,20.0,3,True
+289,Чтение,None,26.0,4,True
+290,Спорт/Фитнес,Paper,31.7,7,True
+291,Спорт/Фитнес,None,7.8,1,True
+292,Программирование,Simple App,43.2,37,True
+293,Изучение языков,Simple App,71.8,40,True
+294,Спорт/Фитнес,Gamified App,81.2,27,True
+295,Чтение,None,30.4,2,True
+296,Программирование,None,19.2,6,True
+297,Спорт/Фитнес,None,4.5,1,True
+298,Чтение,Simple App,62.3,23,True
+299,Спорт/Фитнес,Simple App,37.0,22,True
+300,Спорт/Фитнес,None,31.3,3,True
+301,Чтение,Gamified App,66.0,54,True
+302,Чтение,None,16.7,3,True
+303,Чтение,Simple App,59.0,2,True
+304,Медитация,Simple App,50.6,7,True
+305,Питьевой режим,Gamified App,65.0,22,True
+306,Чтение,Simple App,33.0,1,True
+307,Изучение языков,Gamified App,72.7,30,True
+308,Программирование,Paper,1.6,11,True
+309,Спорт/Фитнес,Gamified App,73.1,43,True
+310,Изучение языков,None,20.2,4,True
+311,Спорт/Фитнес,Gamified App,75.2,53,True
+312,Спорт/Фитнес,Simple App,32.3,32,True
+313,Питьевой режим,Gamified App,86.1,46,True
+314,Программирование,Paper,63.2,53,True
+315,Медитация,Simple App,60.1,3,True
+316,Изучение языков,Simple App,58.9,7,True
+317,Спорт/Фитнес,Simple App,51.5,9,True
+318,Спорт/Фитнес,None,35.5,3,True
+319,Спорт/Фитнес,None,21.6,10,True
+320,Чтение,None,20.5,1,True
+321,Медитация,None,21.7,8,True
+322,Медитация,Gamified App,77.4,10,True
+323,Спорт/Фитнес,None,10.6,2,True
+324,Питьевой режим,Gamified App,74.0,20,True
+325,Медитация,Paper,37.4,1,True
+326,Чтение,None,36.6,16,True
+327,Чтение,Simple App,50.3,70,False
+328,Изучение языков,Simple App,53.5,2,True
+329,Спорт/Фитнес,Paper,21.1,4,True
+330,Изучение языков,Simple App,40.8,4,True
+331,Программирование,Simple App,69.2,19,True
+332,Спорт/Фитнес,None,25.6,1,True
+333,Спорт/Фитнес,Gamified App,80.0,62,False
+334,Спорт/Фитнес,Gamified App,90.8,29,True
+335,Спорт/Фитнес,Simple App,37.8,53,True
+336,Программирование,None,7.4,2,True
+337,Медитация,Simple App,64.8,26,True
+338,Изучение языков,None,19.2,1,True
+339,Спорт/Фитнес,None,11.6,1,True
+340,Изучение языков,None,40.9,16,True
+341,Изучение языков,Paper,15.9,10,True
+342,Спорт/Фитнес,Gamified App,76.8,37,True
+343,Изучение языков,Simple App,53.4,7,True
+344,Изучение языков,Simple App,47.3,17,True
+345,Чтение,Paper,60.6,8,True
+346,Чтение,Paper,18.6,1,True
+347,Спорт/Фитнес,Paper,36.0,26,True
+348,Изучение языков,Gamified App,70.7,53,True
+349,Чтение,None,4.0,3,True
+350,Чтение,Gamified App,79.6,34,True
+351,Программирование,Simple App,52.4,21,True
+352,Медитация,Paper,46.4,20,True
+353,Спорт/Фитнес,Simple App,50.3,4,True
+354,Спорт/Фитнес,Paper,67.1,4,True
+355,Чтение,Gamified App,73.1,65,False
+356,Спорт/Фитнес,Gamified App,86.8,48,True
+357,Чтение,Paper,22.0,21,True
+358,Питьевой режим,None,16.9,1,True
+359,Чтение,Simple App,50.0,10,True
+360,Изучение языков,Gamified App,62.5,54,True
+361,Чтение,None,28.8,7,True
+362,Изучение языков,Simple App,43.2,3,True
+363,Чтение,Simple App,43.4,14,True
+364,Питьевой режим,Simple App,49.0,23,True
+365,Изучение языков,None,16.4,3,True
+366,Питьевой режим,Simple App,40.3,53,True
+367,Питьевой режим,Gamified App,68.5,64,False
+368,Спорт/Фитнес,None,34.2,13,True
+369,Спорт/Фитнес,None,14.0,16,True
+370,Спорт/Фитнес,Gamified App,56.3,60,False
+371,Спорт/Фитнес,None,13.2,5,True
+372,Спорт/Фитнес,Gamified App,82.9,65,False
+373,Медитация,Paper,21.3,4,True
+374,Спорт/Фитнес,None,20.1,2,True
+375,Изучение языков,Gamified App,65.5,48,True
+376,Программирование,Paper,37.2,5,True
+377,Спорт/Фитнес,Simple App,51.6,13,True
+378,Программирование,Paper,48.8,13,True
+379,Спорт/Фитнес,Simple App,74.3,7,True
+380,Спорт/Фитнес,None,21.0,3,True
+381,Медитация,Paper,37.2,22,True
+382,Чтение,Gamified App,84.2,39,True
+383,Программирование,None,0.0,2,True
+384,Медитация,Simple App,31.2,9,True
+385,Программирование,Paper,45.5,28,True
+386,Спорт/Фитнес,Simple App,10.9,35,True
+387,Спорт/Фитнес,None,22.0,10,True
+388,Программирование,Gamified App,87.4,28,True
+389,Программирование,Paper,50.2,3,True
+390,Питьевой режим,None,31.9,11,True
+391,Изучение языков,None,2.2,3,True
+392,Изучение языков,None,23.2,1,True
+393,Программирование,Simple App,55.2,1,True
+394,Изучение языков,Paper,32.7,8,True
+395,Питьевой режим,Gamified App,68.2,45,True
+396,Программирование,Paper,23.7,4,True
+397,Изучение языков,None,9.1,1,True
+398,Программирование,Simple App,60.2,29,True
+399,Программирование,Simple App,32.8,40,True
+400,Спорт/Фитнес,None,2.7,2,True
+401,Питьевой режим,None,13.2,7,True
+402,Чтение,None,15.4,3,True
+403,Программирование,Simple App,56.9,49,True
+404,Изучение языков,Simple App,41.0,19,True
+405,Программирование,Paper,61.3,16,True
+406,Изучение языков,Gamified App,75.9,32,True
+407,Спорт/Фитнес,Gamified App,66.7,52,True
+408,Питьевой режим,Simple App,56.3,64,False
+409,Спорт/Фитнес,Gamified App,89.0,21,True
+410,Изучение языков,None,27.9,7,True
+411,Питьевой режим,None,16.2,4,True
+412,Питьевой режим,None,22.5,4,True
+413,Чтение,None,26.1,9,True
+414,Чтение,Simple App,47.3,26,True
+415,Изучение языков,Gamified App,71.8,71,False
+416,Спорт/Фитнес,None,22.3,7,True
+417,Изучение языков,None,25.0,10,True
+418,Медитация,Paper,52.6,4,True
+419,Программирование,Gamified App,68.8,25,True
+420,Программирование,Paper,21.7,54,True
+421,Программирование,Simple App,56.6,28,True
+422,Спорт/Фитнес,None,27.8,5,True
+423,Изучение языков,None,19.9,3,True
+424,Спорт/Фитнес,Gamified App,81.7,51,True
+425,Чтение,Gamified App,69.7,34,True
+426,Изучение языков,None,34.4,1,True
+427,Программирование,Gamified App,59.8,39,True
+428,Изучение языков,Simple App,63.4,17,True
+429,Спорт/Фитнес,Gamified App,80.8,72,False
+430,Спорт/Фитнес,Paper,40.6,28,True
+431,Программирование,Simple App,57.4,17,True
+432,Чтение,Paper,32.1,8,True
+433,Спорт/Фитнес,Simple App,42.8,8,True
+434,Спорт/Фитнес,None,11.4,11,True
+435,Медитация,None,30.6,2,True
+436,Спорт/Фитнес,Paper,49.3,14,True
+437,Программирование,Simple App,68.2,50,True
+438,Медитация,None,22.6,1,True
+439,Спорт/Фитнес,Simple App,44.5,17,True
+440,Спорт/Фитнес,Gamified App,76.4,29,True
+441,Питьевой режим,None,9.0,3,True
+442,Изучение языков,Simple App,27.2,28,True
+443,Изучение языков,Paper,56.7,8,True
+444,Программирование,Gamified App,69.6,19,True
+445,Питьевой режим,None,8.8,1,True
+446,Питьевой режим,Simple App,68.5,10,True
+447,Программирование,Gamified App,76.6,52,True
+448,Изучение языков,Gamified App,86.2,66,False
+449,Спорт/Фитнес,Simple App,44.6,30,True
+450,Программирование,Paper,20.1,2,True
+451,Чтение,Simple App,35.5,12,True
+452,Изучение языков,Gamified App,65.4,25,True
+453,Питьевой режим,Simple App,51.2,75,False
+454,Спорт/Фитнес,None,17.7,7,True
+455,Изучение языков,Gamified App,65.8,35,True
+456,Спорт/Фитнес,Simple App,75.5,9,True
+457,Изучение языков,Simple App,27.6,5,True
+458,Спорт/Фитнес,None,13.5,4,True
+459,Спорт/Фитнес,Simple App,36.2,23,True
+460,Спорт/Фитнес,Paper,24.9,49,True
+461,Чтение,Simple App,39.2,2,True
+462,Медитация,None,21.8,16,True
+463,Чтение,Simple App,41.8,20,True
+464,Питьевой режим,Gamified App,72.3,67,False
+465,Изучение языков,None,32.5,2,True
+466,Спорт/Фитнес,Gamified App,83.1,27,True
+467,Программирование,Paper,52.3,6,True
+468,Спорт/Фитнес,Gamified App,90.4,54,True
+469,Питьевой режим,Simple App,27.0,43,True
+470,Спорт/Фитнес,Simple App,58.3,5,True
+471,Питьевой режим,Simple App,55.1,19,True
+472,Спорт/Фитнес,Gamified App,85.5,62,False
+473,Программирование,Paper,36.6,13,True
+474,Чтение,Paper,39.3,5,True
+475,Питьевой режим,Simple App,58.6,11,True
+476,Спорт/Фитнес,Gamified App,74.4,39,True
+477,Чтение,Simple App,56.3,24,True
+478,Питьевой режим,Simple App,49.6,3,True
+479,Чтение,Paper,37.4,20,True
+480,Чтение,Gamified App,73.7,57,True
+481,Медитация,None,15.6,7,True
+482,Изучение языков,Simple App,25.9,1,True
+483,Чтение,None,37.5,6,True
+484,Чтение,Paper,60.7,4,True
+485,Питьевой режим,Paper,32.5,4,True
+486,Спорт/Фитнес,Paper,44.0,30,True
+487,Спорт/Фитнес,Simple App,38.2,7,True
+488,Питьевой режим,Paper,29.6,4,True
+489,Программирование,Paper,39.0,19,True
+490,Изучение языков,None,12.8,5,True
+491,Чтение,Paper,31.3,43,True
+492,Спорт/Фитнес,None,22.4,10,True
+493,Спорт/Фитнес,None,25.0,14,True
+494,Изучение языков,Simple App,57.1,17,True
+495,Изучение языков,Simple App,57.2,29,True
+496,Чтение,Simple App,31.4,29,True
+497,Спорт/Фитнес,Paper,28.6,7,True
+498,Питьевой режим,Paper,40.6,36,True
+499,Питьевой режим,Gamified App,85.7,80,False
+500,Медитация,Simple App,38.2,48,True
+501,Чтение,Paper,19.3,16,True
+502,Изучение языков,None,17.7,5,True
+503,Программирование,Paper,61.8,4,True
+504,Медитация,Paper,30.9,9,True
+505,Спорт/Фитнес,Paper,65.8,15,True
+506,Питьевой режим,Simple App,41.8,13,True
+507,Программирование,Simple App,62.9,1,True
+508,Питьевой режим,Simple App,50.4,2,True
+509,Медитация,Simple App,21.2,15,True
+510,Чтение,Gamified App,70.1,66,False
+511,Изучение языков,Simple App,31.2,4,True
+512,Питьевой режим,Gamified App,83.1,53,True
+513,Программирование,None,9.6,11,True
+514,Спорт/Фитнес,None,25.7,1,True
+515,Спорт/Фитнес,None,29.7,2,True
+516,Изучение языков,Simple App,33.7,16,True
+517,Программирование,Gamified App,66.7,12,True
+518,Питьевой режим,None,25.3,3,True
+519,Спорт/Фитнес,Gamified App,79.8,53,True
+520,Чтение,None,25.5,16,True
+521,Изучение языков,Gamified App,72.5,27,True
+522,Питьевой режим,Paper,19.5,10,True
+523,Программирование,None,17.7,5,True
+524,Программирование,Paper,27.2,10,True
+525,Изучение языков,None,23.7,6,True
+526,Изучение языков,None,16.9,10,True
+527,Спорт/Фитнес,Paper,46.3,9,True
+528,Спорт/Фитнес,Gamified App,81.1,28,True
+529,Программирование,Simple App,55.4,24,True
+530,Программирование,Paper,48.3,4,True
+531,Питьевой режим,Simple App,36.2,3,True
+532,Питьевой режим,Simple App,64.6,16,True
+533,Чтение,None,29.2,1,True
+534,Программирование,Paper,29.4,2,True
+535,Питьевой режим,None,7.4,2,True
+536,Программирование,None,44.3,2,True
+537,Спорт/Фитнес,Simple App,56.5,2,True
+538,Изучение языков,None,6.2,2,True
+539,Спорт/Фитнес,Simple App,41.5,68,False
+540,Питьевой режим,Simple App,65.3,12,True
+541,Чтение,None,40.9,3,True
+542,Спорт/Фитнес,Simple App,78.1,26,True
+543,Медитация,None,23.9,1,True
+544,Чтение,Gamified App,48.6,45,True
+545,Изучение языков,Paper,44.9,11,True
+546,Спорт/Фитнес,Gamified App,84.2,48,True
+547,Медитация,Simple App,36.2,3,True
+548,Чтение,None,11.0,6,True
+549,Программирование,Simple App,43.9,5,True
+550,Чтение,Gamified App,83.6,41,True
+551,Программирование,Simple App,50.6,12,True
+552,Чтение,Gamified App,60.5,44,True
+553,Чтение,Gamified App,67.4,75,False
+554,Программирование,None,29.6,6,True
+555,Изучение языков,None,22.8,10,True
+556,Спорт/Фитнес,Simple App,76.4,37,True
+557,Спорт/Фитнес,Paper,39.2,6,True
+558,Программирование,Gamified App,87.2,41,True
+559,Чтение,Gamified App,89.3,50,True
+560,Медитация,Paper,35.5,30,True
+561,Спорт/Фитнес,None,12.0,3,True
+562,Спорт/Фитнес,Simple App,49.0,35,True
+563,Спорт/Фитнес,None,19.6,1,True
+564,Изучение языков,Gamified App,75.6,40,True
+565,Чтение,Paper,54.1,11,True
+566,Изучение языков,Simple App,40.9,10,True
+567,Изучение языков,None,22.1,9,True
+568,Питьевой режим,Simple App,21.9,6,True
+569,Изучение языков,Paper,49.3,7,True
+570,Чтение,Simple App,40.6,10,True
+571,Программирование,None,18.2,4,True
+572,Изучение языков,Simple App,63.5,26,True
+573,Чтение,Gamified App,87.7,41,True
+574,Программирование,None,41.1,1,True
+575,Питьевой режим,None,26.0,4,True
+576,Спорт/Фитнес,None,26.7,1,True
+577,Питьевой режим,Simple App,56.9,32,True
+578,Изучение языков,Simple App,71.8,30,True
+579,Спорт/Фитнес,Simple App,51.3,4,True
+580,Изучение языков,None,34.1,6,True
+581,Питьевой режим,Paper,61.1,3,True
+582,Изучение языков,Simple App,60.5,5,True
+583,Изучение языков,Paper,44.4,34,True
+584,Чтение,Gamified App,79.6,53,True
+585,Спорт/Фитнес,None,34.4,6,True
+586,Спорт/Фитнес,Simple App,52.9,22,True
+587,Спорт/Фитнес,Paper,54.1,3,True
+588,Спорт/Фитнес,Paper,67.1,5,True
+589,Спорт/Фитнес,Simple App,46.7,5,True
+590,Спорт/Фитнес,Simple App,33.7,6,True
+591,Чтение,Gamified App,67.2,57,True
+592,Спорт/Фитнес,None,18.4,4,True
+593,Изучение языков,None,10.9,9,True
+594,Программирование,Simple App,72.8,23,True
+595,Изучение языков,Simple App,40.1,25,True
+596,Медитация,None,28.5,2,True
+597,Спорт/Фитнес,None,21.7,2,True
+598,Спорт/Фитнес,None,25.5,2,True
+599,Спорт/Фитнес,Gamified App,81.0,30,True
+600,Спорт/Фитнес,None,24.6,2,True
+601,Спорт/Фитнес,Paper,19.5,16,True
+602,Спорт/Фитнес,None,25.5,8,True
+603,Спорт/Фитнес,Paper,49.4,3,True
+604,Спорт/Фитнес,None,22.6,3,True
+605,Изучение языков,Simple App,41.9,12,True
+606,Спорт/Фитнес,None,23.5,1,True
+607,Изучение языков,Gamified App,59.4,26,True
+608,Чтение,None,31.6,12,True
+609,Медитация,Simple App,45.1,49,True
+610,Спорт/Фитнес,Gamified App,82.3,37,True
+611,Программирование,Simple App,59.7,19,True
+612,Чтение,Simple App,61.4,41,True
+613,Спорт/Фитнес,Paper,49.2,85,False
+614,Программирование,Paper,24.7,1,True
+615,Питьевой режим,Simple App,46.3,10,True
+616,Спорт/Фитнес,Gamified App,78.3,66,False
+617,Спорт/Фитнес,Simple App,66.2,6,True
+618,Программирование,Simple App,30.3,1,True
+619,Медитация,Simple App,59.3,31,True
+620,Спорт/Фитнес,Paper,59.9,1,True
+621,Спорт/Фитнес,None,23.9,5,True
+622,Изучение языков,Simple App,66.4,21,True
+623,Изучение языков,Gamified App,77.5,60,False
+624,Чтение,None,21.4,8,True
+625,Изучение языков,Simple App,50.4,13,True
+626,Изучение языков,None,11.8,2,True
+627,Медитация,Simple App,73.0,20,True
+628,Спорт/Фитнес,None,23.7,2,True
+629,Спорт/Фитнес,Paper,8.5,77,False
+630,Медитация,Simple App,59.4,19,True
+631,Программирование,Paper,53.3,1,True
+632,Чтение,Simple App,79.3,24,True
+633,Чтение,Simple App,42.4,10,True
+634,Спорт/Фитнес,Gamified App,94.6,45,True
+635,Изучение языков,None,30.1,2,True
+636,Чтение,Paper,60.1,3,True
+637,Спорт/Фитнес,None,32.3,1,True
+638,Спорт/Фитнес,Gamified App,91.9,39,True
+639,Изучение языков,Gamified App,93.2,59,True
+640,Спорт/Фитнес,Simple App,57.1,4,True
+641,Изучение языков,Gamified App,90.5,57,True
+642,Спорт/Фитнес,Simple App,56.2,69,False
+643,Изучение языков,Simple App,56.9,17,True
+644,Спорт/Фитнес,None,0.0,1,True
+645,Программирование,Simple App,45.6,18,True
+646,Чтение,None,23.9,5,True
+647,Медитация,Gamified App,73.0,18,True
+648,Программирование,Simple App,66.7,2,True
+649,Изучение языков,Simple App,48.9,2,True
+650,Спорт/Фитнес,None,15.5,5,True
+651,Чтение,Paper,23.0,28,True
+652,Чтение,None,26.2,11,True
+653,Медитация,Paper,49.4,5,True
+654,Изучение языков,None,12.0,9,True
+655,Спорт/Фитнес,Gamified App,77.5,57,True
+656,Спорт/Фитнес,Simple App,49.5,40,True
+657,Изучение языков,Paper,46.8,1,True
+658,Чтение,Paper,32.3,52,True
+659,Чтение,Paper,37.1,24,True
+660,Изучение языков,Simple App,46.9,2,True
+661,Питьевой режим,Simple App,38.8,5,True
+662,Чтение,Gamified App,73.2,21,True
+663,Спорт/Фитнес,Paper,32.6,3,True
+664,Спорт/Фитнес,Gamified App,72.2,19,True
+665,Спорт/Фитнес,Gamified App,70.4,35,True
+666,Спорт/Фитнес,None,30.5,2,True
+667,Спорт/Фитнес,Gamified App,70.1,39,True
+668,Спорт/Фитнес,None,12.3,6,True
+669,Спорт/Фитнес,Gamified App,62.0,39,True
+670,Спорт/Фитнес,Paper,45.0,6,True
+671,Программирование,Gamified App,74.7,32,True
+672,Спорт/Фитнес,Gamified App,80.7,18,True
+673,Чтение,Gamified App,71.4,49,True
+674,Изучение языков,Simple App,52.8,4,True
+675,Питьевой режим,Paper,80.4,14,True
+676,Спорт/Фитнес,None,19.0,1,True
+677,Изучение языков,Paper,13.4,9,True
+678,Питьевой режим,None,29.2,1,True
+679,Программирование,Simple App,41.8,12,True
+680,Программирование,Paper,66.1,12,True
+681,Спорт/Фитнес,Gamified App,71.8,61,False
+682,Спорт/Фитнес,Simple App,60.2,42,True
+683,Медитация,Gamified App,78.9,16,True
+684,Питьевой режим,None,17.2,2,True
+685,Чтение,Gamified App,83.5,70,False
+686,Чтение,Gamified App,74.3,1,True
+687,Спорт/Фитнес,Paper,18.0,26,True
+688,Программирование,Simple App,64.3,11,True
+689,Спорт/Фитнес,Simple App,44.5,9,True
+690,Изучение языков,None,35.6,1,True
+691,Изучение языков,Simple App,45.9,5,True
+692,Чтение,Paper,68.6,10,True
+693,Спорт/Фитнес,None,36.3,6,True
+694,Спорт/Фитнес,Paper,44.4,7,True
+695,Чтение,None,4.8,6,True
+696,Спорт/Фитнес,None,22.2,2,True
+697,Чтение,None,9.0,2,True
+698,Спорт/Фитнес,Gamified App,68.9,36,True
+699,Изучение языков,Simple App,41.8,55,True
+700,Чтение,Gamified App,83.3,46,True
+701,Спорт/Фитнес,Paper,46.7,3,True
+702,Изучение языков,Paper,58.3,7,True
+703,Спорт/Фитнес,Simple App,42.3,2,True
+704,Спорт/Фитнес,Paper,57.7,23,True
+705,Питьевой режим,None,21.9,1,True
+706,Изучение языков,Simple App,33.5,6,True
+707,Программирование,None,26.8,11,True
+708,Спорт/Фитнес,Simple App,37.4,1,True
+709,Медитация,Simple App,36.7,43,True
+710,Программирование,None,25.3,7,True
+711,Чтение,None,32.3,1,True
+712,Изучение языков,Simple App,18.7,3,True
+713,Изучение языков,Paper,31.2,10,True
+714,Изучение языков,None,10.6,2,True
+715,Питьевой режим,Gamified App,68.3,43,True
+716,Программирование,None,28.9,4,True
+717,Питьевой режим,Simple App,40.9,15,True
+718,Спорт/Фитнес,Gamified App,79.6,74,False
+719,Медитация,None,6.0,39,True
+720,Питьевой режим,None,14.7,9,True
+721,Спорт/Фитнес,None,33.9,1,True
+722,Спорт/Фитнес,Paper,42.1,14,True
+723,Медитация,None,0.0,13,True
+724,Чтение,Simple App,57.6,2,True
+725,Программирование,None,59.3,1,True
+726,Спорт/Фитнес,Simple App,18.7,39,True
+727,Программирование,Gamified App,92.2,21,True
+728,Спорт/Фитнес,Gamified App,72.0,48,True
+729,Спорт/Фитнес,Simple App,36.6,7,True
+730,Спорт/Фитнес,Paper,33.8,23,True
+731,Программирование,Simple App,33.0,11,True
+732,Медитация,Simple App,42.0,32,True
+733,Чтение,Paper,45.4,4,True
+734,Изучение языков,None,26.9,14,True
+735,Программирование,Gamified App,93.5,35,True
+736,Изучение языков,Paper,37.5,1,True
+737,Программирование,None,21.0,8,True
+738,Изучение языков,Paper,59.4,4,True
+739,Изучение языков,Paper,37.1,46,True
+740,Изучение языков,Gamified App,74.4,52,True
+741,Изучение языков,Simple App,52.9,7,True
+742,Медитация,Simple App,73.7,9,True
+743,Чтение,None,29.9,10,True
+744,Спорт/Фитнес,Paper,26.7,5,True
+745,Программирование,Paper,54.3,47,True
+746,Изучение языков,None,28.8,24,True
+747,Чтение,None,34.7,2,True
+748,Питьевой режим,Simple App,40.9,13,True
+749,Чтение,None,17.7,2,True
+750,Спорт/Фитнес,Simple App,64.9,58,True
+751,Питьевой режим,None,15.3,2,True
+752,Чтение,None,26.4,1,True
+753,Изучение языков,None,18.1,1,True
+754,Спорт/Фитнес,Gamified App,78.2,27,True
+755,Программирование,Gamified App,75.9,1,True
+756,Чтение,Gamified App,73.1,20,True
+757,Чтение,Paper,58.1,20,True
+758,Программирование,None,27.8,5,True
+759,Программирование,Simple App,35.8,11,True
+760,Спорт/Фитнес,Paper,66.2,31,True
+761,Изучение языков,Gamified App,86.4,28,True
+762,Спорт/Фитнес,None,11.8,2,True
+763,Медитация,Paper,30.9,6,True
+764,Спорт/Фитнес,None,32.2,1,True
+765,Чтение,Paper,36.1,19,True
+766,Программирование,Simple App,22.7,15,True
+767,Программирование,Paper,44.1,5,True
+768,Изучение языков,Paper,19.5,3,True
+769,Программирование,Paper,69.8,2,True
+770,Спорт/Фитнес,Paper,53.7,6,True
+771,Программирование,Simple App,51.6,28,True
+772,Спорт/Фитнес,Gamified App,80.4,47,True
+773,Изучение языков,Gamified App,77.6,64,False
+774,Программирование,Simple App,61.0,11,True
+775,Спорт/Фитнес,Paper,44.3,6,True
+776,Спорт/Фитнес,Simple App,48.2,19,True
+777,Медитация,Paper,41.4,9,True
+778,Медитация,None,35.2,1,True
+779,Чтение,Gamified App,81.0,51,True
+780,Медитация,None,40.8,1,True
+781,Чтение,Gamified App,77.6,26,True
+782,Спорт/Фитнес,Paper,45.0,24,True
+783,Изучение языков,Simple App,47.7,87,False
+784,Спорт/Фитнес,Simple App,21.4,2,True
+785,Питьевой режим,Gamified App,66.4,46,True
+786,Чтение,Simple App,45.5,13,True
+787,Изучение языков,Simple App,58.3,7,True
+788,Изучение языков,None,6.6,5,True
+789,Питьевой режим,Simple App,66.2,37,True
+790,Спорт/Фитнес,None,15.3,4,True
+791,Чтение,Simple App,30.7,35,True
+792,Чтение,Simple App,29.0,9,True
+793,Чтение,Simple App,27.2,39,True
+794,Спорт/Фитнес,None,0.0,2,True
+795,Программирование,None,32.0,9,True
+796,Питьевой режим,Simple App,43.1,11,True
+797,Чтение,None,1.3,14,True
+798,Медитация,None,16.1,1,True
+799,Питьевой режим,None,21.9,4,True
+800,Медитация,Gamified App,79.5,44,True
+801,Спорт/Фитнес,Simple App,42.3,12,True
+802,Чтение,Paper,46.8,50,True
+803,Чтение,None,10.2,5,True
+804,Изучение языков,Paper,34.9,8,True
+805,Медитация,Simple App,52.6,3,True
+806,Питьевой режим,Simple App,59.2,23,True
+807,Питьевой режим,None,21.6,1,True
+808,Изучение языков,None,27.1,3,True
+809,Спорт/Фитнес,None,0.0,9,True
+810,Питьевой режим,Simple App,56.4,10,True
+811,Программирование,Simple App,68.0,7,True
+812,Спорт/Фитнес,None,17.1,3,True
+813,Питьевой режим,None,12.2,6,True
+814,Программирование,None,14.4,3,True
+815,Чтение,Gamified App,77.0,39,True
+816,Чтение,None,16.5,9,True
+817,Изучение языков,Simple App,48.6,4,True
+818,Спорт/Фитнес,Simple App,42.1,45,True
+819,Изучение языков,Paper,17.3,10,True
+820,Программирование,None,23.2,7,True
+821,Спорт/Фитнес,None,22.3,5,True
+822,Изучение языков,Simple App,60.4,11,True
+823,Изучение языков,Simple App,53.0,24,True
+824,Чтение,Simple App,74.5,12,True
+825,Питьевой режим,Simple App,61.6,4,True
+826,Изучение языков,None,25.5,9,True
+827,Изучение языков,Gamified App,87.0,47,True
+828,Медитация,Simple App,20.5,52,True
+829,Изучение языков,None,8.8,2,True
+830,Спорт/Фитнес,Gamified App,74.4,63,False
+831,Изучение языков,Simple App,20.7,18,True
+832,Спорт/Фитнес,Simple App,52.2,9,True
+833,Спорт/Фитнес,Simple App,48.6,28,True
+834,Изучение языков,Gamified App,79.2,64,False
+835,Изучение языков,Simple App,32.3,35,True
+836,Питьевой режим,None,18.7,8,True
+837,Изучение языков,Paper,48.7,5,True
+838,Чтение,Gamified App,91.5,61,False
+839,Чтение,None,12.7,14,True
+840,Спорт/Фитнес,Paper,45.4,3,True
+841,Медитация,Paper,20.6,6,True
+842,Спорт/Фитнес,Paper,48.6,12,True
+843,Питьевой режим,Simple App,32.6,4,True
+844,Спорт/Фитнес,Gamified App,72.2,67,False
+845,Изучение языков,None,15.2,12,True
+846,Спорт/Фитнес,None,18.1,1,True
+847,Питьевой режим,None,12.4,1,True
+848,Чтение,Gamified App,85.5,69,False
+849,Чтение,Simple App,42.7,1,True
+850,Спорт/Фитнес,None,13.9,10,True
+851,Медитация,Gamified App,79.9,39,True
+852,Спорт/Фитнес,Gamified App,73.6,56,True
+853,Программирование,Gamified App,55.9,64,False
+854,Спорт/Фитнес,Gamified App,75.7,38,True
+855,Спорт/Фитнес,None,19.1,5,True
+856,Спорт/Фитнес,Simple App,49.4,11,True
+857,Изучение языков,Paper,40.6,5,True
+858,Чтение,Gamified App,79.4,29,True
+859,Спорт/Фитнес,Simple App,64.0,50,True
+860,Программирование,Simple App,62.7,2,True
+861,Изучение языков,Simple App,18.1,12,True
+862,Чтение,None,24.3,2,True
+863,Изучение языков,Simple App,57.1,6,True
+864,Изучение языков,Gamified App,73.9,31,True
+865,Чтение,Gamified App,83.4,39,True
+866,Спорт/Фитнес,None,0.0,3,True
+867,Спорт/Фитнес,None,16.3,3,True
+868,Программирование,None,7.6,5,True
+869,Питьевой режим,Simple App,51.6,35,True
+870,Изучение языков,Gamified App,68.9,51,True
+871,Спорт/Фитнес,None,15.4,3,True
+872,Чтение,Simple App,39.6,12,True
+873,Изучение языков,Gamified App,71.1,47,True
+874,Спорт/Фитнес,Simple App,48.6,26,True
+875,Спорт/Фитнес,Simple App,43.8,5,True
+876,Медитация,Simple App,30.2,46,True
+877,Медитация,Simple App,61.6,48,True
+878,Спорт/Фитнес,None,10.0,3,True
+879,Спорт/Фитнес,Simple App,38.7,6,True
+880,Спорт/Фитнес,Simple App,64.6,24,True
+881,Медитация,Gamified App,80.2,39,True
+882,Спорт/Фитнес,Simple App,67.7,4,True
+883,Спорт/Фитнес,Simple App,38.3,24,True
+884,Программирование,None,33.3,2,True
+885,Спорт/Фитнес,Paper,53.4,29,True
+886,Медитация,None,38.3,2,True
+887,Спорт/Фитнес,None,42.8,3,True
+888,Спорт/Фитнес,Simple App,40.7,12,True
+889,Спорт/Фитнес,Gamified App,82.1,16,True
+890,Медитация,None,16.3,14,True
+891,Программирование,Paper,46.6,17,True
+892,Программирование,Gamified App,77.2,64,False
+893,Изучение языков,None,10.5,8,True
+894,Медитация,Simple App,39.8,7,True
+895,Спорт/Фитнес,Simple App,63.5,9,True
+896,Спорт/Фитнес,Simple App,56.8,24,True
+897,Программирование,None,36.7,6,True
+898,Спорт/Фитнес,Paper,62.8,12,True
+899,Спорт/Фитнес,Simple App,25.2,31,True
+900,Спорт/Фитнес,Simple App,42.1,6,True
+901,Спорт/Фитнес,None,9.5,5,True
+902,Спорт/Фитнес,Simple App,61.4,29,True
+903,Чтение,None,22.8,10,True
+904,Изучение языков,Simple App,35.2,1,True
+905,Программирование,None,11.5,4,True
+906,Программирование,Gamified App,87.5,41,True
+907,Изучение языков,Paper,48.0,9,True
+908,Спорт/Фитнес,Paper,23.9,12,True
+909,Изучение языков,None,39.1,1,True
+910,Чтение,Paper,55.1,48,True
+911,Спорт/Фитнес,Gamified App,62.5,69,False
+912,Чтение,Gamified App,94.5,33,True
+913,Изучение языков,Paper,40.0,2,True
+914,Чтение,Paper,15.0,35,True
+915,Изучение языков,Simple App,65.9,11,True
+916,Спорт/Фитнес,Gamified App,79.4,34,True
+917,Питьевой режим,Simple App,53.4,26,True
+918,Программирование,Paper,12.1,33,True
+919,Спорт/Фитнес,Paper,49.6,16,True
+920,Программирование,Simple App,65.9,62,False
+921,Изучение языков,None,11.2,6,True
+922,Программирование,Simple App,39.3,22,True
+923,Программирование,Paper,36.4,19,True
+924,Изучение языков,Simple App,50.7,9,True
+925,Спорт/Фитнес,None,26.7,3,True
+926,Спорт/Фитнес,Simple App,79.1,4,True
+927,Чтение,Paper,43.5,2,True
+928,Чтение,Simple App,59.7,11,True
+929,Спорт/Фитнес,None,28.8,1,True
+930,Спорт/Фитнес,Simple App,60.8,1,True
+931,Программирование,Simple App,36.3,7,True
+932,Питьевой режим,Simple App,70.3,1,True
+933,Чтение,Simple App,67.6,67,False
+934,Спорт/Фитнес,Simple App,52.0,18,True
+935,Спорт/Фитнес,Gamified App,66.4,45,True
+936,Спорт/Фитнес,None,0.0,5,True
+937,Питьевой режим,Gamified App,83.8,24,True
+938,Спорт/Фитнес,Paper,31.1,2,True
+939,Чтение,None,13.7,1,True
+940,Спорт/Фитнес,None,17.1,22,True
+941,Чтение,Paper,61.3,29,True
+942,Медитация,Simple App,12.7,114,False
+943,Программирование,Simple App,69.2,9,True
+944,Спорт/Фитнес,Simple App,55.1,8,True
+945,Спорт/Фитнес,Simple App,75.1,25,True
+946,Спорт/Фитнес,Paper,25.8,6,True
+947,Питьевой режим,None,23.4,1,True
+948,Программирование,Paper,25.9,13,True
+949,Чтение,Paper,56.5,20,True
+950,Чтение,None,30.6,11,True
+951,Медитация,None,37.6,5,True
+952,Спорт/Фитнес,Simple App,50.0,5,True
+953,Питьевой режим,Simple App,81.3,40,True
+954,Изучение языков,Gamified App,64.9,40,True
+955,Изучение языков,Gamified App,72.6,83,False
+956,Чтение,Simple App,40.4,17,True
+957,Спорт/Фитнес,Paper,42.9,12,True
+958,Спорт/Фитнес,Simple App,36.4,6,True
+959,Медитация,Simple App,66.6,1,True
+960,Спорт/Фитнес,None,24.8,4,True
+961,Чтение,Paper,23.6,6,True
+962,Спорт/Фитнес,Gamified App,83.3,57,True
+963,Изучение языков,Paper,43.6,24,True
+964,Спорт/Фитнес,Simple App,73.8,10,True
+965,Изучение языков,Simple App,58.6,22,True
+966,Медитация,None,6.3,7,True
+967,Спорт/Фитнес,Paper,37.8,12,True
+968,Чтение,Paper,50.6,1,True
+969,Изучение языков,None,17.6,2,True
+970,Медитация,None,9.7,6,True
+971,Питьевой режим,Gamified App,87.3,66,False
+972,Медитация,None,14.2,4,True
+973,Спорт/Фитнес,Simple App,60.2,7,True
+974,Спорт/Фитнес,None,18.6,1,True
+975,Спорт/Фитнес,Gamified App,79.3,46,True
+976,Чтение,None,14.1,3,True
+977,Спорт/Фитнес,Paper,37.5,10,True
+978,Изучение языков,Gamified App,79.6,30,True
+979,Чтение,Gamified App,63.5,19,True
+980,Изучение языков,None,2.1,6,True
+981,Программирование,Gamified App,61.4,74,False
+982,Спорт/Фитнес,Paper,28.3,1,True
+983,Спорт/Фитнес,Paper,46.0,3,True
+984,Медитация,None,21.3,4,True
+985,Изучение языков,None,34.5,3,True
+986,Медитация,Simple App,77.1,9,True
+987,Изучение языков,Paper,35.8,3,True
+988,Спорт/Фитнес,Paper,25.5,19,True
+989,Программирование,Simple App,82.5,44,True
+990,Программирование,Simple App,67.9,19,True
+991,Медитация,None,31.1,4,True
+992,Спорт/Фитнес,Simple App,41.5,2,True
+993,Чтение,None,28.6,3,True
+994,Изучение языков,Simple App,52.1,8,True
+995,Спорт/Фитнес,Simple App,48.9,12,True
+996,Питьевой режим,Gamified App,74.2,33,True
+997,Спорт/Фитнес,None,21.7,15,True
+998,Питьевой режим,None,25.1,9,True
+999,Изучение языков,None,34.9,1,True
