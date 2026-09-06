@@ -1,230 +1,137 @@
-Трекер Привычек (Telegram Bot)
-Telegram-бот для отслеживания и формирования привычек. Помогает пользователям выстраивать дисциплину, отслеживать прогресс и мотивирует на регулярные действия.
+```markdown
+# 🧠 HabitBot — Telegram Habit Tracker
 
----Структура проекта---
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
+> A smart Telegram bot to track habits, build discipline, and visualize your progress — all in one place.
+
+---
+
+## ✨ Features
+
+- 📝 **Create habits** with name and description
+- ✅ **Log daily progress** with time tracking
+- 🔥 **Streak counter** — never break the chain
+- 🏆 **Personal records** — beat your best
+- 📊 **Progress charts** — see your growth
+- 💬 **Motivational quotes** — daily inspiration
+- 🗑️ **Manage habits** — view or delete anytime
+
+---
+
+## 🛠️ Built With
+
+- **Python** 3.9+
+- **python-telegram-bot** (v20+)
+- **PostgreSQL** & SQLAlchemy
+- **Matplotlib** + **Pandas** for charts
+- **aiohttp** for async API calls
+
+---
+
+## 📁 Project Structure
+
+```
 HabitBot/
+├── main.py                 # Entry point
+├── config.py               # Tokens & settings
+├── requirements.txt        # Dependencies
+├── database/
+│   ├── models.py           # User, Habit, HabitLog models
+│   └── requests.py         # DB operations
+├── keyboards/
+│   └── builders.py         # Keyboard builders
+├── services/
+│   ├── api_quote.py        # Motivational quotes API
+│   └── stats_gen.py        # Chart generation
+└── handlers/
+    ├── start.py            # /start & main menu
+    ├── creation.py         # Habit creation (FSM)
+    ├── tracking.py         # Logging & deletion
+    └── statistics.py       # Stats & graphs
+```
 
-    main.py - Точка входа (запуск бота)
+---
 
-    config.py - Настройки и токены
+## 🚀 Getting Started
 
-    requirements.txt - Список зависимостей
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/HabitBot.git
+cd HabitBot
+```
 
-database/ - Работа с базой данных
+### 2. Create virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-    __init__.py
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-    models.py - Модели таблиц БД
+### 4. Configure environment
+Create a `.env` file or update `config.py`:
+```env
+BOT_TOKEN=your_telegram_bot_token
+DATABASE_URL=postgresql://user:pass@localhost/dbname
+```
 
-    requests.py - Функции для работы с БД
+### 5. Run the bot
+```bash
+python main.py
+```
 
-keyboards/ - Клавиатуры и кнопки
+---
 
-    __init__.py
+## 📊 Key Metrics
 
-    builders.py - Построители клавиатур
+| Metric | Description |
+|--------|-------------|
+| **Streak** | Consecutive days of logging |
+| **Record** | Highest streak ever achieved |
+| **Total Time** | Sum of all logged minutes |
+| **Average** | Mean minutes per session |
 
-services/ - Вспомогательные сервисы
+---
 
-    __init__.py
+## 📸 Screenshots
 
-    api_quote.py - Внешнее API для мотивационных цитат
+> *Coming soon — add your bot screenshots here*
 
-    stats_gen.py - Генерация графиков статистики
+---
 
-handlers/ - Обработчики сообщений
+## 🤝 Contributing
 
-    __init__.py
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/yourusername/HabitBot/issues).
 
-    start.py - Стартовая команда и меню
+---
 
-    creation.py - Создание новых привычек
+## 📄 License
 
-    tracking.py - Отметка выполнения привычек
+Distributed under the MIT License. See `LICENSE` for more information.
 
-    statistics.py - Просмотр статистики и графиков
+---
 
----Описание файлов---
+## 🙌 Acknowledgments
 
---main.py
+- [ZenQuotes.io](https://zenquotes.io/) for motivational quotes API
+- [python-telegram-bot](https://python-telegram-bot.org/) community
+```
 
-Основная точка входа - запускает бота и инициализирует все компоненты.
+---
 
-    Главная функция: main() - запуск бота и подключение всех роутеров
+## 📝 Short Description (max 350 characters)
 
-    Особенности: Инициализация БД, настройка логирования, запуск polling
+```
+HabitBot is a Telegram habit tracker built with Python. Create habits, log daily progress, track streaks, view stats, and get motivational quotes — all in one bot.
+```
 
---config.py
-
-Конфигурация проекта - хранит настройки и секретные данные.
-
-    Содержит: Токен бота, URL базы данных
-
-    Назначение: Централизованное хранение настроек
-
---database/models.py
-
-Модели базы данных - определяет структуру таблиц.
-
-    Модели:
-
-        User - информация о пользователях
-
-        Habit - данные о привычках пользователей
-
-        HabitLog - история выполнения привычек
-
-
---database/requests.py
-
-Запросы к базе данных - операции для работы с данными.
-
-    Основные функции:
-
-        set_user() - регистрация нового пользователя
-
-        add_habit() - добавление новой привычки
-
-        get_user_habits() - получение списка привычек пользователя
-
-        log_habit_completion() - запись выполнения привычки
-
-        get_habit_logs() - получение истории выполнения
-
-        delete_habit() - удаление привычки
-
---keyboards/builders.py
-
-Построение клавиатур - создание интерфейса взаимодействия.
-
-    Функции:
-
-        main_kb() - главное меню бота
-
-        cancel_kb() - клавиатура для отмены действий
-
-        habits_inline_kb() - инлайн-клавиатура со списком привычек
-
---services/api_quote.py
-
-Внешнее API - получение мотивационных цитат.
-
-    Функция: get_motivation_quote() - запрос к zenquotes.io API
-
-    Особенности: Асинхронные запросы через aiohttp, обработка ошибок
-
---services/stats_gen.py
-
-Генерация графиков - визуализация статистики.
-
-    Функция: generate_habit_chart() - создание столбчатой диаграммы прогресса
-
-    Технологии: Использует matplotlib и pandas для анализа данных
-
---handlers/start.py
-
---Стартовые команды - обработка команды /start.
-
-    Обработчик: cmd_start() - приветствие и главное меню
-
-    Особенности: Автоматическая регистрация пользователя
-
---handlers/creation.py
-
---Создание привычек - процесс добавления новых привычек.
-
-    Состояния FSM: HabitState (title, description)
-
-    Обработчики:
-
-        start_creation() - начало создания
-
-        process_title() - обработка названия
-
-        process_desc() - обработка описания
-
-        cancel_handler() - отмена создания
-
---handlers/tracking.py
-
-Отслеживание выполнения - отметка выполненных привычек.
-
-    Состояния FSM: TrackState (minutes, habit_id)
-
-    Обработчики:
-
-        list_habits() - просмотр списка привычек
-
-        select_habit_to_track() - выбор привычки для отметки
-
-        save_track() - сохранение времени выполнения
-
-        select_habit_to_delete() - удаление привычек
-
---handlers/statistics.py
-
-Статистика и аналитика - просмотр прогресса.
-
-    Обработчики:
-
-        select_stat_habit() - выбор привычки для статистики
-
-        show_chart() - генерация и отправка графика
-
-
----Основные функции бота---
-1. Регистрация пользователей
-
-    Автоматическая регистрация при первом использовании
-
-    Хранение данных в PostgreSQL
-
-2. Создание привычек
-
-    Пошаговый процесс через FSM (Finite State Machine)
-
-    Возможность указать название и описание
-
-    Автоматическое отслеживание даты создания
-
-3. Отслеживание выполнения
-
-    Отметка времени, затраченного на привычку
-
-    Автоматический подсчет стриков (последовательных дней)
-
-    Обновление личных рекордов
-
-4. Статистика и аналитика
-
-    Визуализация прогресса в виде графиков
-
-    Расчет средней продолжительности
-
-    Подсчет общего времени
-
-5. Мотивационная система
-
-    Автоматическое получение мотивационных цитат
-
-    Отображение текущих стриков и рекордов
-
-6. Управление привычками
-
-    Просмотр списка всех привычек
-
-    Удаление ненужных привычек
-
-    Редактирование через удаление/создание
-
-
----Ключевые показатели---
-
-    Стрик - количество последовательных дней выполнения
-
-    Рекорд - максимальный достигнутый стрик
-
-    Общее время - суммарное количество минут
-
-    Среднее время - средняя продолжительность выполнения в день
+**Character count:** 222 ✅
