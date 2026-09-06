@@ -224,12 +224,6 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 🙌 Acknowledgments
 
 - [python-telegram-bot](https://python-telegram-bot.org/) community
