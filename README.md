@@ -1,35 +1,45 @@
-```markdown
-# 🧠 HabitBot — Telegram Habit Tracker
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
-![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?logo=postgresql&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+# 🧠 HabitBot
 
-> A smart Telegram bot to track habits, build discipline, and visualize your progress — all in one place.
+### Telegram Habit Tracker — Build Discipline, Track Progress, Stay Motivated
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-FF0000?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- 📝 **Create habits** with name and description
-- ✅ **Log daily progress** with time tracking
-- 🔥 **Streak counter** — never break the chain
-- 🏆 **Personal records** — beat your best
-- 📊 **Progress charts** — see your growth
-- 💬 **Motivational quotes** — daily inspiration
-- 🗑️ **Manage habits** — view or delete anytime
+| Feature | Description |
+|---------|-------------|
+| 📝 Create Habits | Add habits with title and description via step-by-step conversation |
+| ✅ Daily Logging | Log time spent on each habit with one tap |
+| 🔥 Streaks | Automatic streak tracking — never break the chain |
+| 🏆 Records | Personal best streaks saved and displayed |
+| 📊 Charts | Visual progress bars with average and total time |
+| 💬 Quotes | Daily motivational quotes from external API |
+| 🗑️ Manage | View, delete, or update habits anytime |
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- **Python** 3.9+
-- **python-telegram-bot** (v20+)
-- **PostgreSQL** & SQLAlchemy
-- **Matplotlib** + **Pandas** for charts
-- **aiohttp** for async API calls
+```
+🐍 Python 3.9+
+🤖 python-telegram-bot (v20+)
+🐘 PostgreSQL + SQLAlchemy
+📈 Matplotlib + Pandas
+🌐 aiohttp (async API)
+```
 
 ---
 
@@ -37,19 +47,24 @@
 
 ```
 HabitBot/
-├── main.py                 # Entry point
-├── config.py               # Tokens & settings
+│
+├── main.py                 # Entry point — runs the bot
+├── config.py               # Tokens & configuration
 ├── requirements.txt        # Dependencies
+│
 ├── database/
 │   ├── models.py           # User, Habit, HabitLog models
-│   └── requests.py         # DB operations
+│   └── requests.py         # Database operations
+│
 ├── keyboards/
 │   └── builders.py         # Keyboard builders
+│
 ├── services/
 │   ├── api_quote.py        # Motivational quotes API
-│   └── stats_gen.py        # Chart generation
+│   └── stats_gen.py        # Chart generation with matplotlib
+│
 └── handlers/
-    ├── start.py            # /start & main menu
+    ├── start.py            # /start command & main menu
     ├── creation.py         # Habit creation (FSM)
     ├── tracking.py         # Logging & deletion
     └── statistics.py       # Stats & graphs
@@ -59,31 +74,38 @@ HabitBot/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/HabitBot.git
 cd HabitBot
 ```
 
-### 2. Create virtual environment
+### 2. Create and activate virtual environment
+
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate        # Linux/Mac
+# venv\Scripts\activate         # Windows
 ```
 
 ### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment
+### 4. Configure environment variables
+
 Create a `.env` file or update `config.py`:
+
 ```env
-BOT_TOKEN=your_telegram_bot_token
-DATABASE_URL=postgresql://user:pass@localhost/dbname
+BOT_TOKEN=your_telegram_bot_token_here
+DATABASE_URL=postgresql://username:password@localhost/habitbot
 ```
 
 ### 5. Run the bot
+
 ```bash
 python main.py
 ```
@@ -94,23 +116,39 @@ python main.py
 
 | Metric | Description |
 |--------|-------------|
-| **Streak** | Consecutive days of logging |
-| **Record** | Highest streak ever achieved |
-| **Total Time** | Sum of all logged minutes |
-| **Average** | Mean minutes per session |
+| 🔥 **Streak** | Consecutive days of logging a habit |
+| 🏆 **Record** | Highest streak ever achieved |
+| ⏱️ **Total Time** | Sum of all minutes logged |
+| 📊 **Average** | Mean minutes per session |
+
+---
+
+## 🧠 How It Works
+
+1. User starts the bot with `/start` — auto-registration
+2. Creates habits via interactive FSM (title + description)
+3. Logs time spent each day
+4. Bot automatically calculates streaks and records
+5. User can view progress charts anytime
+6. Motivational quotes keep the user inspired
 
 ---
 
 ## 📸 Screenshots
 
-> *Coming soon — add your bot screenshots here*
+> *Add screenshots of your bot in action here*
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/yourusername/HabitBot/issues).
+Pull requests are welcome! For major changes, please open an issue first.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
@@ -122,16 +160,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🙌 Acknowledgments
 
-- [ZenQuotes.io](https://zenquotes.io/) for motivational quotes API
+- [ZenQuotes.io](https://zenquotes.io/) for free motivational quotes API
 - [python-telegram-bot](https://python-telegram-bot.org/) community
-```
+- All contributors and users of HabitBot
 
 ---
 
-## 📝 Short Description (max 350 characters)
+<div align="center">
 
-```
-HabitBot is a Telegram habit tracker built with Python. Create habits, log daily progress, track streaks, view stats, and get motivational quotes — all in one bot.
-```
+**⭐ Star this repo if you find it useful!**  
+Made with ❤️ and Python
 
-**Character count:** 222 ✅
+</div>
